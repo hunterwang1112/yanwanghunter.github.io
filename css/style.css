@@ -578,27 +578,6 @@ nav{
 	transition: all ease 0.5s;
 }
 
-.f-social{
-	position: absolute;
-	left: 50px;
-	bottom: 50px;
-	display: flex;
-}
-
-.f-social a{
-	margin: 6px 12px;
-}
-
-.f-social i{
-	color: rgba(18,17,17,0.4);
-	font-size: 14px;
-}
-
-.f-social a:hover i{
-	color: #17d1ac;
-	transition: all ease 0.5s;
-}
-
 .message font{
 	font-size: 22px;
 	color: #bfbfbf;
@@ -798,20 +777,24 @@ nav{
 		width: 90% !important;
 	}
 
+	.c-l-heading{
+		padding-bottom: 20px;
+	}
+
 	.contact-left,
 	.contact-right{
-		width: 100%;
+		width: 100% !important;
 		border: none;
 	}
 
 	.f-email
 	.f-name{
-		width: 100%;
+		width: 100% !important;
 	}
 
 	.f-email input,
 	.f-name input{
-		width: 100%;
+		width: 100% !important;
 		border: none;
 		background-color: #262626 !important;
 		padding: 10px;
