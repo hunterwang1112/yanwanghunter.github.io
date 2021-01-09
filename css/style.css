@@ -411,6 +411,7 @@ nav{
 	margin: 0px;
 	padding: 0px;
 	letter-spacing: 2px;
+	text-align: center;
 }
 
 .text-overlay p{
@@ -645,7 +646,7 @@ nav{
 
 @media(max-width:1190px){
 	#main{
-		background-size: 1150px;
+		background-size: none! important;
 	}
 
 	.name{
@@ -654,11 +655,15 @@ nav{
 		transform: translate(-10%,-50%);
 	}
 
-	.about-model img{
-		height: 400px;
+	#about{
+		height: auto;
 	}
 
 	#services{
+		height: auto;
+	}
+
+	#portfolio{
 		height: auto;
 	}
 
@@ -761,6 +766,11 @@ nav{
 
 	.active-menu{
 		display: block !important;
+	}
+
+	.s-heading p{
+		margin-left: 30px;
+		margin-right: 30px;
 	}
 
 	.p-b-container{
