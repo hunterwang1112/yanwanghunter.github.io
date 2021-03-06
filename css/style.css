@@ -30,8 +30,8 @@ a{
 	position: : relative;
 	background-image: url("../images/IMG_2515.jpg");
 	background-repeat: no-repeat;
-	background-size: 700px;
-	background-position: right bottom;
+	background-size: contain;
+	background-position: right;
 }
 
 nav{
