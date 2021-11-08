@@ -28,7 +28,7 @@ a{
 	box-sizing: border-box;
 	background-color: #edf1fd;
 	position: : relative;
-	background-image: url("../images/IMG_2515.jpg");
+	background-image: url("../images/photo.jpg");
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: right;
@@ -86,8 +86,8 @@ nav{
 
 .name{
 	font-family: calibri;
-	width: 540px;
-	position: absolute;
+	width: 30%;
+	position: relative;
 	left: 15%;
 	top: 50%;
 	transform: translate(-20%, -50%);
@@ -96,8 +96,9 @@ nav{
 .name p:nth-child(1),
 .name .details{
 	color: #6c707c;
-	font-size: 18px;
-	line-height: 25px;
+	font-size: 17px;
+	line-height: 27px;
+	font-family: 'PT Serif', serif;
 }
 
 .name h1{
@@ -113,8 +114,9 @@ nav{
 }
 
 .cv-btn{
-	width: 200px;
+	width: 180px;
 	height: 45px;
+	font-size: 19px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -187,6 +189,7 @@ nav{
 	text-align: center;
 	font-family: calibri;
 	width: 60%;
+	font-family: 'PT Serif', serif;
 }
 
 .about-text h1{
@@ -235,7 +238,7 @@ nav{
 .about-text button a{
 	color: #000000;
 	font-size: 1.0rem;
-	font-family: calibri;
+	font-family: 'PT Serif', serif;
 }
 
 #services{
@@ -275,7 +278,7 @@ nav{
 .s-box{
 	background-color: #2b2b2b;
 	width: 360px;
-	height: 500px;
+	height: 580px;
 	margin: 10px;
 	border-radius: 10px;
 	overflow: hidden;
@@ -313,7 +316,7 @@ nav{
 	margin: 0px;
 	color: #BFBFBF;
 	font-size: 1.1rem;
-	font-family: calibri;
+	font-family: 'PT Serif', serif;
 	display: block;
 	display: -webkit-box;
 	max-width: 90%;
@@ -324,7 +327,7 @@ nav{
 }
 
 .s-type{
-	font-family: calibri;
+	font-family: 'PT Serif', serif;
 	color: #BFBFBF;
 	background-color: #151515;
 	padding: 10px 15px;
@@ -360,15 +363,16 @@ nav{
 
 .p-heading{
 	font-family: calibri;
-	font-size: 2.5rem;
+	font-size: 2.8rem;
 	text-align: center;
 	color: #FFFFFF;
 	font-weight: 400;
-	padding: 10px 20px;
-	background-color: #292929;
+	padding: 20px 20px;
+	/*background-color: #292929;*/
 	letter-spacing: 2px;
 	border-radius: 3px;
-	box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
+	/*box-shadow: 2px 2px 20px rgba(0,0,0,0.1);*/
+	margin: 0px;
 }
 
 .p-box{
@@ -478,7 +482,7 @@ nav{
 
 #contact-btn a{
 	color: #FFFFFF;
-	font-size: 1rem;
+	font-size: 1.1rem;
 	font-family: calibri;
 	width: 150px;
 	height: 40px;
